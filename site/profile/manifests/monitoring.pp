@@ -1,7 +1,7 @@
 class profile::monitoring (
 
 ) {
-  class { '::collectd':
+  class { 'collectd':
     purge_config => true,
     interval     => 5,
   }
