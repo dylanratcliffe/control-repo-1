@@ -13,7 +13,7 @@ class profile::clock_app (
     owner  => 'root',
     group  => 'root',
     mode   => '0644',
-    source => 'http://bl.ocks.org/mbostock/raw/1096355/index.html',
+    source => 'puppet:///modules/profile/clock.html',
   }
 
 }
